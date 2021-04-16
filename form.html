@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nugget</title>
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="home.html">Home</a> |
+                <a href="#">Sign Up</a> | <a href="third.html">Third Page</a>
+            </nav>
+        </header>
+        <h1>Sign Up For a Free Chicken Nugget!!! </h1>
+        <form>
+            <fieldset>
+                <p class="name">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="first name here" required>
+                    
+                    <label for="lastName">Last Name*</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="last name here" required>
+                </p>
+                
+                <p>
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" placeholder="email here" required>
+                </p>
+                <p>
+                    <label for="restaurant">Favorite Fast Food Restaurant*</label>
+                    <p>
+                        <i>Your answer here will not increase your chances of winning :)</i>
+                    </p>
+                    <select name="restaurant" id="restaurant" required>
+                        <option value="">--Choose one my guy--</option>
+                        <option value="mcdonalds">McDonald's</option>
+                        <option value="wendys">Wendy's</option>
+                        <option value="burger-king">Burger King</option>
+                        <option value="chick-fila">Chick-fil-A</option>
+                        <option value="popeyes">Popeyes</option>
+                        <option value="kfc">KFC</option>
+                        <option value="checkers">Checkers</option>
+                    </select>
+                </p> 
+                <p>
+                    Are you a vegetarian/vegan??
+                    <br>
+                    <input type="radio" name="vegan" id="yes" value="yes"><label for="yes">Yes</label>
+                    <input type="radio" name="vegan" id="no" value="no"><label for="no">No</label>
+                </p>  
+                <input type="checkbox" name="sauce" id="sauce" value="sauce">
+                <label for="sauce">Check this if you want sauce with your nugget (if you win). 
+                    <i>What type of sauce you ask? <b>All of em</b></i>
+                </label> 
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+                <p>
+                    *Required fields
+                </p>
+            </fieldset>
+        </form>
+
+        <figure>
+            <img src="assets/nugget.jpg" alt="nugget" width="400px" height="400px">
+            <figcaption>Don't miss out on this^^^</figcaption>
+        </figure>
+    </body>
+</html>

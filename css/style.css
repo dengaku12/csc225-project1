@@ -1,0 +1,64 @@
+body {
+    background: #D8BFD8;
+    margin-top: 0;
+}
+
+header {
+    background-color: black;
+    margin: 0px;
+    padding: 5px;
+    color:#FF00FF;
+    font-size: 1.2em;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: #FF00FF;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #FF00FF;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: #FF00FF;
+}
+
+
+.wrap {
+    text-align: center;
+    background: lavender;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: larger;
+}
+
+img {
+    width: 120px;
+    height: 80px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.grid > div {
+    background: violet;
+    padding: 1em;
+    border-radius: 1rem;
+    font-size: larger;
+}
+
+.grid > div:nth-child(odd){
+    background: #FF00FF;
+}
